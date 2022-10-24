@@ -434,6 +434,13 @@ article {
 }
 
 
+.head-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
 .head-text h2 {
     font-weight: bold;
     margin: 0;
@@ -452,10 +459,15 @@ article {
         justify-content: space-between;
     }
 
+    .head-text {
+        align-items: unset;
+    }
+
     .head-picture {
         margin-top: 0;
     }
 }
+
 .image-crop {
     width: 100px;
     height: 100px;
